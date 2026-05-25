@@ -10,7 +10,7 @@ export function ProfilePage({ active, onNext }: ProfilePageProps) {
       <div className="inn">
         <div className="ph" style={{ display: 'flex', alignItems: 'center', gap: '1.2rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
           <div className="av" style={{
-            width: 150, height: 90, borderRadius: '30%',
+            width: 100, height: 60, borderRadius: '30%',
             background: 'var(--glass2)', border: '1px solid var(--border2)',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             fontSize: '1.9rem', flexShrink: 0,

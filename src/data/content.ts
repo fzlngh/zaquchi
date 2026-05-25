@@ -44,7 +44,6 @@ export const MD: Record<string, { e: string; t: string; c: string; photo?: strin
   bread: {
     e: '🍞', t: 'bread',
     c: `This is actually such a small thing, but I still remember it.\n\nBack then, I wanted to celebrate my birthday in a simple way. Nothing big, nothing loud. I just wanted to hand out bread to people who needed it. That was it.\n\nAnd honestly, the first person I wanted to ask was you. It just felt like it would've been nice walking around and handing out bread with you. Simple, but probably one of those memories I would've kept for a long time.\n\nBut in the end, I didn't ask you. Not because I didn't want to. Honestly, it was because I wanted to too much.\n\nI was scared it would make you feel like you had to celebrate me, when that was never what I meant. So I asked someone else instead.\n\nIt still happened. But yeah… there's still a small part of me that thinks, "it should've been with you."`,
-    photo: './photos/bread.jpg'
   },
   rose: {
     e: '🌹', t: 'rose',
