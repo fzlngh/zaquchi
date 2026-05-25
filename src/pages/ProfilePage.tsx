@@ -1,3 +1,4 @@
+import { PhotoFrame } from '../components/PhotoFrame';
 interface ProfilePageProps {
   active: boolean;
   onNext: () => void;
@@ -9,18 +10,19 @@ export function ProfilePage({ active, onNext }: ProfilePageProps) {
       <div className="inn">
         <div className="ph" style={{ display: 'flex', alignItems: 'center', gap: '1.2rem', marginBottom: '1.5rem', flexWrap: 'wrap' }}>
           <div className="av" style={{
-            width: 70, height: 70, borderRadius: '50%',
+            width: 150, height: 90, borderRadius: '30%',
             background: 'var(--glass2)', border: '1px solid var(--border2)',
             display: 'flex', alignItems: 'center', justifyContent: 'center',
             fontSize: '1.9rem', flexShrink: 0,
             boxShadow: '0 0 26px var(--glow)',
-          }}>🌙</div>
+          }}><PhotoFrame
+          src="./photos/profile.jpg"
+          alt="graduation"
+          label="graduation"
+        /></div>
           <div>
             <div className="pn" style={{ fontFamily: "'Cormorant Garamond', serif", fontSize: 'clamp(1.1rem,5vw,1.65rem)', fontStyle: 'italic', color: 'var(--t1)' }}>
               anggieta lituhayu tristyo
-            </div>
-            <div className="pm" style={{ fontFamily: "'Syne Mono', monospace", fontSize: '0.58rem', color: 'var(--t4)', letterSpacing: '0.12em', marginTop: '0.2rem' }}>
-              // zaquchi
             </div>
           </div>
         </div>
