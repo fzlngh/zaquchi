@@ -24,9 +24,9 @@ export function EndingPage({ active }: EndingPageProps) {
       />
 
       <div className="prose" style={{ textAlign: 'center', maxWidth: 400, position: 'relative', zIndex: 2 }}>
-        <p>Somewhere along the way, that became the name I got used to carrying for you. The one that felt a little more special because it was only mine to call you.</p>
-        <p>Maybe it's silly. Maybe it's strange. But this was the meaning I quietly made for you.</p>
-        <p><em>And maybe that's why it stayed.</em></p>
+        <p>At some point, I just got used to calling you that.At some point, I just got used to calling you that. I started using it a long time ago, mostly when talking about you to my friends.</p>
+        <p>Somehow, "Zaquchi" became easier to say than your full name, and it just stuck.Maybe it's a little weird. Maybe you don't even like it that much.</p>
+        <p><em>But that's where it came from, and that's why I still use it.</em></p>
       </div>
     </div>
   );

@@ -20,8 +20,8 @@ export function ImpressionPage({ active, onNext }: ImpressionPageProps) {
         <div className="eye">this is just me trying to understand you better.</div>
         <div className="prose" style={{ marginBottom: '1.4rem' }}>
           <p>Kesan pertama itu nggak selalu langsung jelas. Kadang keliatan biasa aja dari luar, tapi semakin lama kamu kenal seseorang, semakin banyak hal yang baru kelihatan.</p>
-          <p>Awalnya, kamu keliatan seperti orang yang tenang. Nggak banyak ngomong, tapi setiap kali ngomong selalu ada yang bisa diinget.</p>
-          <p>Ternyata beda setelah kenal. Banyak hal yang nggak keliatan dari luar — cara kamu perhatiin hal kecil, cara kamu care tanpa perlu bilang langsung.</p>
+          <p>Awalnya, kamu keliatan orang yang tenang. Nggak banyak ngomong, tapi setiap kali ngomong selalu ada yang bisa diinget.</p>
+          <p>Ternyata beda setelah kenal. Banyak hal yang nggak keliatan dari luar cara kamu perhatiin hal kecil, cara kamu care tanpa perlu bilang langsung.</p>
         </div>
         <div className="div-line" />
         <div className="eye" style={{ marginBottom: '0.75rem' }}>quick questions</div>

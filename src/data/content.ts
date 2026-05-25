@@ -1,26 +1,26 @@
 export const QD = [
-  { q: 'what color does she like most?', o: ['red','blue','yellow','pink'], c: 'blue', fc: 'okay good, at least you pay attention', fw: 'wrong. do better.' },
-  { q: 'what game is basically attached to her?', o: ['valorant','roblox','genshin','minecraft'], c: 'roblox', fc: 'yep. that one.', fw: 'nope. think again.' },
-  { q: 'what does she like more?', o: ['running','sleeping','gaming','cooking'], c: 'running', fc: "see, you do know things.", fw: "wrong. she'd be disappointed." }
+  { q: 'what color does you like most?', o: ['red','blue','yellow','pink'], c: 'blue', fc: 'okay good, at least i pay attention', fw: 'wrong?. i do better.' },
+  { q: 'what game is basically attached to you?', o: ['valorant','roblox','genshin','minecraft'], c: 'roblox', fc: 'yep. i know that one.', fw: 'nope?. i think again.' },
+  { q: 'what does you like more?', o: ['running','sleeping','gaming','cooking'], c: 'running', fc: "see, i do know things.", fw: "ini susah sih, ak tak taw sowwy." }
 ];
 
 export const GD = [
   { cl: 'something simple, but i still think it should\'ve been with you', o: ['bread','music','running'], c: 'bread', fc: 'yeah. still remember that one.', fw: 'nope. but nice try.' },
-  { cl: 'the one that changed the way i see things', o: ['rose','chocolate','roblox'], c: 'rose', fc: 'exactly that one.', fw: 'not quite.' },
-  { cl: "wasn't about what it was, but who gave it", o: ['music','chocolate','bread'], c: 'chocolate', fc: 'kind of annoying, but okay.', fw: 'guess again next time.' }
+  { cl: 'the one that changed the way i see things', o: ['rose','chocolate','roblox'], c: 'rose', fc: 'exactly that one.', fw: 'jawabannya udah pasti ga sihh' },
+  { cl: "wasn't about what it was, but who gave it", o: ['music','chocolate','bread'], c: 'chocolate', fc: 'kind of annoying, but okay.', fw: 'guess again next time, ga memperhatikan sih' }
 ];
 
 export const TD = [
-  { a: 'rose', b: 'jennie', fa: 'yeah, that feels right.', fb: 'interesting choice.' },
-  { a: 'night', b: 'morning', fa: 'same.', fb: 'morning person? bold.' },
-  { a: 'roblox', b: 'mobile legends', fa: "okay that's on brand.", fb: "we're playing this next, remember?" },
+  { a: 'rose', b: 'jennie', fa: 'yeah, that feels right.', fb: 'yh tw si.' },
+  { a: 'night', b: 'morning', fa: 'same.', fb: 'morning person? so iya bangett.' },
+  { a: 'roblox', b: 'mobile legends', fa: "okay that's good.", fb: "we're playing this next, remember?" },
   { a: 'blue', b: 'black', fa: 'yeah, that feels right.', fb: 'dark. noted.' },
-  { a: 'quiet', b: 'chaotic', fa: 'makes sense.', fb: 'bold choice. suspicious, but bold.' }
+  { a: 'quiet', b: 'chaotic', fa: 'makes sense.', fb: 'aku pikir bakal milih yang ono.' }
 ];
 
 export const RD = [
-  { q: 'what do i think about too much?', o: ['sleep','school','you'], f: 'correct. somehow still you.' },
-  { q: 'what ruins my focus fastest?', o: ['noise','overthinking','you again'], f: 'all roads lead to the same answer.' },
+  { q: 'what do i think about too much?', o: ['sleep','school','nothing'], f: 'correct. somehow still nothing.' },
+  { q: 'what ruins my focus fastest?', o: ['noise','overthinking','nothing again'], f: 'all roads lead to the same answer.' },
   { q: 'what do i randomly bring up to my friends?', o: ['homework','food','you, apparently'], f: 'yeah. apparently.' }
 ];
 
@@ -33,7 +33,7 @@ export const TPLS = [
 ];
 
 export const QNA = [
-  { q: 'did i get you right at first?', fy: 'thought so.', fn: "yeah, i figured you'd say that." },
+  { q: 'did i get you right at first?', fy: 'boonk ah.', fn: "yeah, i figured you'd say that." },
   { q: 'are you easier to understand than you seem?', fy: 'maybe.', fn: 'i know. still trying.' },
   { q: "do you know you're hard not to notice?", fy: 'of course you do.', fn: 'you should.' },
   { q: 'were you always this easy to remember?', fy: 'yeah. that checks out.', fn: 'then why do i still remember everything.' },
@@ -43,7 +43,7 @@ export const QNA = [
 export const MD: Record<string, { e: string; t: string; c: string; photo?: string }> = {
   bread: {
     e: '🍞', t: 'bread',
-    c: `This is actually such a small thing, but I still remember it.\n\nBack then, I wanted to celebrate my birthday in a simple way. Nothing big, nothing loud. I just wanted to hand out bread to people who needed it. That was it.\n\nAnd honestly, the first person I wanted to ask was you. It just felt like it would've been nice — walking around and handing out bread with you. Simple, but probably one of those memories I would've kept for a long time.\n\nBut in the end, I didn't ask you. Not because I didn't want to. Honestly, it was because I wanted to too much.\n\nI was scared it would make you feel like you had to celebrate me, when that was never what I meant. So I asked someone else instead.\n\nIt still happened. But yeah… there's still a small part of me that thinks, "it should've been with you."`,
+    c: `This is actually such a small thing, but I still remember it.\n\nBack then, I wanted to celebrate my birthday in a simple way. Nothing big, nothing loud. I just wanted to hand out bread to people who needed it. That was it.\n\nAnd honestly, the first person I wanted to ask was you. It just felt like it would've been nice walking around and handing out bread with you. Simple, but probably one of those memories I would've kept for a long time.\n\nBut in the end, I didn't ask you. Not because I didn't want to. Honestly, it was because I wanted to too much.\n\nI was scared it would make you feel like you had to celebrate me, when that was never what I meant. So I asked someone else instead.\n\nIt still happened. But yeah… there's still a small part of me that thinks, "it should've been with you."`,
     photo: './photos/bread.jpg'
   },
   rose: {
@@ -67,12 +67,6 @@ export const MD: Record<string, { e: string; t: string; c: string; photo?: strin
     c: `This game is fun, honestly. The one game that somehow became a connection.\n\nBack then it was Free Fire too, yeah. And somehow I was a burden in both.\n\nThat's why we're playing ML next, okay? We'll play together. I promise I won't be a burden this time.`
   }
 };
-
-export const ML_ = [
-  "i didn't know the song at first…",
-  "turns out this was why you gave me this song",
-  "i just understood it later"
-];
 
 export const NEB: Record<string, string> = {
   'p-intro':  'radial-gradient(ellipse at 70% 25%, rgba(160,200,255,0.35) 0%,transparent 58%),radial-gradient(ellipse at 20% 80%, rgba(140,185,255,0.25) 0%,transparent 52%)',

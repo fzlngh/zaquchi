@@ -8,7 +8,7 @@ interface StoryPageProps {
 const poem = `Tidak semua tumbuh
 memilih riuh.
 
-Sebagian menjelma akar—
+Sebagian menjelma akar
 menembus gelap,
 memeluk luka tanah,
 lalu diam-diam menguat.
@@ -37,7 +37,7 @@ tak pandai berteriak.
 Ia hanya menggenggam bumi
 lebih dalam.
 
-Lelah kerap menjelma senja—
+Lelah kerap menjelma senja
 redup, panjang,
 dan nyaris membuat pulang
 terasa seperti kalah.
@@ -48,7 +48,7 @@ tetaplah doa
 yang sedang berjalan.
 
 Barangkali
-kau sedang menjadi akar—
+kau sedang menjadi akar
 
 ditanam dalam gelap
 agar kelak

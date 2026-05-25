@@ -1,5 +1,4 @@
 import { useEffect, useRef, useState } from 'react';
-import { ML_ } from '../data/content';
 import { PhotoFrame } from '../components/PhotoFrame';
 
 interface MusicPageProps {
@@ -16,17 +15,6 @@ export function MusicPage({ active, onNext }: MusicPageProps) {
   const [loadError, setLoadError] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
 
-  // Lyric rotation
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setLyricVisible(false);
-      setTimeout(() => {
-        setLyricIdx(i => (i + 1) % ML_.length);
-        setLyricVisible(true);
-      }, 400);
-    }, 4200);
-    return () => clearInterval(interval);
-  }, []);
 
   // Sync isPlaying state with actual audio events (the reliable way)
   useEffect(() => {
@@ -114,14 +102,6 @@ export function MusicPage({ active, onNext }: MusicPageProps) {
             daniel caesar
           </div>
 
-          {/* Rotating lyric */}
-          <div style={{
-            fontSize: '0.76rem', fontStyle: 'italic', color: 'var(--t3)',
-            textAlign: 'center', minHeight: '1.1rem', marginBottom: '0.85rem',
-            opacity: lyricVisible ? 1 : 0, transition: 'opacity 0.5s',
-          }}>
-            {ML_[lyricIdx]}
-          </div>
 
           {/* Player row */}
           <div className="ply" style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
@@ -186,7 +166,7 @@ export function MusicPage({ active, onNext }: MusicPageProps) {
         <div className="div-line" />
         <div className="prose">
           <p>At first, I thought it was just a song. Just something nice to listen to, something calm, something soft. I didn't really get it at first. Not fully.</p>
-          <p>But after listening to it again, and again, and a little more carefully — I think I understand now. Maybe that was the point.</p>
+          <p>But after listening to it again, and again, and a little more carefully I think I understand now. Maybe that was the point.</p>
           <p>Maybe it was never just about the song, but about what it was trying to say quietly. And maybe that's why it stayed. Not because I understood it immediately, but because I understood it later. And somehow, that made it mean more.</p>
           <p>So thank you. Not just for the song, but for the thought behind it. And even more for the gift. That was probably one of the most thoughtful things anyone has ever given me.</p>
           <p>You really didn't have to do all that. But you did. And I don't think you realize how much that meant to me.</p>

@@ -11,7 +11,7 @@ export function ThankYouPage({ active, onNext }: ThankYouPageProps) {
         <div className="eye">for all the little things</div>
         <div className="div-line" />
         <div className="prose">
-          <p>Thank you. For all the effort, for all the little things, and for all the care you probably thought was small, but never really felt small to me.</p>
+         <p>Thank you. For all the effort, for all the little things, and for all the care you probably thought was small, but never really felt small to me.</p>
           <p>I don't think you realize how much I noticed. The way you remembered things. The way you gave effort even in small moments. The way you cared in quiet ways that were easy to miss if no one was paying attention.</p>
           <p>But I was. And I noticed more than I probably ever said.</p>
           <p>Thank you for the time. For the thought. For the attention. For the care that always felt more genuine than loud.</p>

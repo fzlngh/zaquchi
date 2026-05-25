@@ -41,9 +41,9 @@ export function ProfilePage({ active, onNext }: ProfilePageProps) {
         </div>
         <div className="div-line" />
         <div className="prose">
-          <p>This website started as something small. At first, it was only a simple idea — quiet, personal, and maybe a little unnecessary to anyone else. But some things feel too meaningful to be left as passing thoughts, so I turned them into something real.</p>
+          <p>This website started as something small. At first, it was only a simple idea quiet, personal, and maybe a little unnecessary to anyone else. But some things feel too meaningful to be left as passing thoughts, so I turned them into something real.</p>
           <p>It was made as a small gift, and as a quiet way to celebrate someone who has reached the end of one chapter and is about to begin another. A small congratulations for finishing middle school, for making it through everything that came with it, and for becoming someone even stronger along the way.</p>
-          <p>Not everything worth keeping has to be said out loud. Some things are better kept in places you can return to — through pages, songs, memories, and small details left behind on purpose.</p>
+          <p>Not everything worth keeping has to be said out loud. Some things are better kept in places you can return to through pages, songs, memories, and small details left behind on purpose.</p>
           <p>Because some people leave more impact than they realize. Not always through big moments, but through small things that stay longer than expected.</p>
         </div>
         <button className="nb" onClick={onNext}>next <span className="ar">→</span></button>

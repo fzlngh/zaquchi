@@ -81,7 +81,7 @@ export function PasswordPage({ active, onUnlock }: PasswordPageProps) {
       <div style={{
         fontFamily: "'Syne Mono', monospace",
         fontSize: '0.66rem',
-        color: 'var(--t4)',
+        color: 'black',
         minHeight: '1rem',
         letterSpacing: '0.06em',
         position: 'relative', zIndex: 2,

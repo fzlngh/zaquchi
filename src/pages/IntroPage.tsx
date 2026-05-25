@@ -29,11 +29,11 @@ export function IntroPage({ active, onNext, onBack, showBack }: IntroPageProps) 
     <div className={`page ${active ? 'in' : ''}`} id="p-intro" style={{ textAlign: 'center' }}>
       <div id="ilines" style={{ textAlign: 'center' }}>
         {[
-          { text: '"hi zahira"', d: 300, big: true },
-          { text: '"i made this for you"', d: 1200 },
-          { text: '"read it slowly ya"', d: 2100 },
-          { text: '"don\'t rush, okay?"', d: 3000 },
-          { text: '"just stay here for a bit"', d: 3900 },
+          { text: 'hi zahira', d: 300, big: true },
+          { text: 'i made this for you', d: 1200 },
+          { text: 'read it slowly ya', d: 2100 },
+          { text: 'don\'t rush, okay?', d: 3000 },
+          { text: 'just stay here for a bit', d: 3900 },
         ].map((item, i) => (
           <div
             key={i}
